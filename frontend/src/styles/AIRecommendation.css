@@ -1,0 +1,127 @@
+.ai-chat-card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.1);
+  max-width: 800px;
+}
+
+.ai-response {
+  white-space: pre-wrap;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.typing {
+  font-style: italic;
+  color: #777;
+}
+.ai-error {
+  color: red;
+  font-weight: bold;
+}
+.ai-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.ai-loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #2563eb;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* AI Recommendation Page Styles */
+.ai-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: #f9fafb;
+}
+.ai-instructions {
+  max-width: 600px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+.ai-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+.ai-submit-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.ai-submit-btn:hover {
+  background: #1e40af;
+}
+.ai-submit-btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+.ai-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.ai-controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.ai-controls select,
+.ai-controls button {
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.ai-controls button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.ai-controls button:disabled {
+  background-color: #9e9e9e;
+}
+
+.ai-loading {
+  color: #555;
+}
+
+.ai-error {
+  color: red;
+}
+
+.ai-result {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}

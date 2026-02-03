@@ -1,0 +1,66 @@
+.navbar {
+  height: 64px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* LEFT */
+.logo {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+/* CENTER */
+.nav-center {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+/* RIGHT */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar .nav-link:hover {
+  color: #2563eb;
+}   
+
+

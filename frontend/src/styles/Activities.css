@@ -1,0 +1,268 @@
+.activities-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.activities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.activity-card {
+  background: white;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-date {
+  font-size: 14px;
+  color: gray;
+}
+
+.activity-actions button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn {
+  color: red;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: white;
+  padding: 22px;
+  border-radius: 14px;
+  width: 320px;
+}
+
+.modal-box label {
+  display: block;
+  margin-top: 10px;
+}
+
+.modal-box input,
+.modal-box select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.save-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.cancel-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+ /* Improved modal */
+.modal-card.improved {
+  width: 420px;
+  padding: 28px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+/* Header */
+.modal-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-icon {
+  font-size: 22px;
+}
+
+/* Vertical form */
+.activity-form-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Form groups */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Highlight weight */
+.weight-highlight input {
+  border: 2px solid #4caf50;
+  background: #f6fff6;
+}
+
+/* Actions */
+.modal-actions.spaced {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.save-btn {
+  background: #22c55e;
+  color: white;
+  padding: 10px 26px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+}
+
+.cancel-btn {
+  background: #f1f1f1;
+  padding: 10px 26px;
+  border-radius: 12px;
+  border: none;
+}
+.cancel-btn:hover {
+  background: #e0e0e0;
+}
+/* Card container */
+.activity-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px 22px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 35px rgba(0,0,0,0.1);
+}
+
+/* Left section */
+.activity-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Title */
+.activity-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.activity-title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.activity-icon {
+  font-size: 20px;
+}
+
+/* Date */
+.activity-date {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Metrics row */
+.activity-metrics {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.metric {
+  background: #f4f6f8;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.metric.calories {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+/* Actions */
+.activity-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  color: #e53935;
+}
+
+.edit-btn:hover {
+  transform: scale(1.1);
+}
+
+.delete-btn:hover {
+  transform: scale(1.1);
+}
