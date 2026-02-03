@@ -8,24 +8,24 @@ This project follows **industry best practices** such as environment-based confi
 
 ## 🚀 Features
 
-- User Registration & Authentication
-- Secure API access (Spring Security)
-- Workout & Activity Tracking
-- Fitness Goals Management
-- Email notifications (SMTP)
-- MySQL database integration
-- Environment-based configuration (no hardcoded secrets)
+- User Registration & Authentication  
+- Secure API access (Spring Security)  
+- Workout & Activity Tracking  
+- Fitness Goals Management  
+- Email notifications (SMTP)  
+- MySQL database integration  
+- Environment-based configuration (no hardcoded secrets)  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Backend:** Java, Spring Boot
-- **Security:** Spring Security
-- **Database:** MySQL
-- **ORM:** Hibernate / JPA
-- **Build Tool:** Maven
-- **Version Control:** Git & GitHub
+- **Backend:** Java, Spring Boot  
+- **Security:** Spring Security  
+- **Database:** MySQL  
+- **ORM:** Hibernate / JPA  
+- **Build Tool:** Maven  
+- **Version Control:** Git & GitHub  
 
 ---
 
@@ -69,13 +69,15 @@ ADMIN_PASSWORD=admin123
 Create a MySQL database:
 
 CREATE DATABASE fitness_db;
-Update DB credentials in .env
+Update database credentials in .env.
 
-Hibernate will auto-create tables on startup.
+Hibernate will automatically create tables on application startup.
 
 ▶️ Running the Application
+Run the following command from the backend directory:
+
 mvn spring-boot:run
-Application runs on:
+The application will start at:
 
 http://localhost:8080
 🔒 Security Practices
@@ -108,15 +110,8 @@ This project is for learning and demonstration purposes.
 
 ---
 
-## ✅ How to add it to GitHub
+## ✅ Add it to GitHub
 
-1. Create file:
-README.md
-
-
-2. Paste the content above
-
-3. Commit & push:
 ```bash
 git add README.md
 git commit -m "Add project README"
